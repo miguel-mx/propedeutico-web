@@ -1,0 +1,82 @@
+header {
+	background-image: url(../images/pciencias-blur.jpg);
+}
+
+header .intro-text .intro-heading {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: orange;
+}
+
+header .intro-text .intro-heading {
+    text-transform: none;
+}
+
+header .h3 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-title h2 {
+    margin-bottom: 60px;
+}
+
+.section-title h2::after {
+    left: 0;
+    margin-left: 0px;
+    width: 90%;
+}
+
+section ul li:before {
+	content: "\f061";
+}
+
+.mz-module-about h3 {
+    color: #000000;
+    font-size: 20px;
+    text-transform: none;
+}
+
+.light-bg {
+    background-color: #ddd;
+}
+
+.media-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.modal-content {
+    padding: 30px;
+}
+
+.modal-body {
+    margin-top: 20px;
+}
+
+.table > tbody > tr.charla1 > td, .table > tbody > tr.charla1 > th, .table > tbody > tr > td.charla1, .table > tbody > tr > th.charla1, .table > tfoot > tr.charla1 > td, .table > tfoot > tr.charla1 > th, .table > tfoot > tr > td.charla1, .table > tfoot > tr > th.charla1, .table > thead > tr.charla1 > td, .table > thead > tr.charla1 > th, .table > thead > tr > td.charla1, .table > thead > tr > th.charla1 {
+    background-color: #eadcfc;
+}
+
+.table > tbody > tr.charla2 > td, .table > tbody > tr.charla2 > th, .table > tbody > tr > td.charla2, .table > tbody > tr > th.charla2, .table > tfoot > tr.charla2 > td, .table > tfoot > tr.charla2 > th, .table > tfoot > tr > td.charla2, .table > tfoot > tr > th.charla2, .table > thead > tr.charla2 > td, .table > thead > tr.charla2 > th, .table > thead > tr > td.charla2, .table > thead > tr > th.charla2 {
+    background-color: #d7f0ff;
+}
+
+.table > tbody > tr.charla3 > td, .table > tbody > tr.charla3 > th, .table > tbody > tr > td.charla3, .table > tbody > tr > th.charla3, .table > tfoot > tr.charla3 > td, .table > tfoot > tr.charla3 > th, .table > tfoot > tr > td.charla3, .table > tfoot > tr > th.charla3, .table > thead > tr.charla3 > td, .table > thead > tr.charla3 > th, .table > thead > tr > td.charla3, .table > thead > tr > th.charla3 {
+    background-color: #fffdc0;
+}
+
+.table > tbody > tr.charla4 > td, .table > tbody > tr.charla4 > th, .table > tbody > tr > td.charla4, .table > tbody > tr > th.charla4, .table > tfoot > tr.charla4 > td, .table > tfoot > tr.charla4 > th, .table > tfoot > tr > td.charla4, .table > tfoot > tr > th.charla4, .table > thead > tr.charla4 > td, .table > thead > tr.charla4 > th, .table > thead > tr > td.charla4, .table > thead > tr > th.charla4 {
+   background-color: #dedede;
+}
+
+.table > tbody > tr.charla5 > td, .table > tbody > tr.charla5 > th, .table > tbody > tr > td.charla5, .table > tbody > tr > th.charla5, .table > tfoot > tr.charla5 > td, .table > tfoot > tr.charla5 > th, .table > tfoot > tr > td.charla5, .table > tfoot > tr > th.charla5, .table > thead > tr.charla5 > td, .table > thead > tr.charla5 > th, .table > thead > tr > td.charla5, .table > thead > tr > th.charla5 {
+    background-color: #fadaff;
+}
