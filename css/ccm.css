@@ -1,19 +1,243 @@
+
+@font-face { 
+    font-family: 'montserrat'; 
+    src:  url('myfont.woff2') format('woff2'), 
+    url('myfont.woff') format('woff'); 
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    font-family: "Montserrat", Sans-serif;
+    color: #232323;
+}
+
+/*--------------------
+3. Header
+--------------------*/
+
 header {
-	background-image: url(../images/pciencias-blur.jpg);
+    background-image: url(../images/bg6.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+    height: 600px;
+}
+
+header .intro-text {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    header .intro-text {
+        padding-top: 230px;
+        padding-bottom: 400px;
+    }
+}
+
+header .intro-text .intro-lead-in {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 25px;
+    padding: 4px 20px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 19px;
+    color: #3E3E3E;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) {
+    header .intro-text .intro-lead-in {
+        font-size: 29px;
+        line-height: 40px;
+        margin-bottom: 45px;
+    }
 }
 
 header .intro-text .intro-heading {
-    font-size: 50px;
-    margin-bottom: 15px;
-    color: orange;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 25px;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
-header .intro-text .intro-heading {
-    text-transform: none;
+@media (min-width: 768px) {
+    header .intro-text .intro-heading {
+        line-height: 95px;
+        font-size: 77px;
+        margin-bottom: 50px;
+    }
 }
 
-header .h3 {
-    font-weight: 600;
+/*--------------------
+2. Navigation
+--------------------*/
+
+.navbar-default {
+    background-color: #ef4136;
+    border-color: transparent
+}
+.navbar-default .navbar-brand {
+    color: #ef4136;
+    font-family: "Montserrat",sans-serif;
+    padding: 0px;
+}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
+    color: #fec503
+}
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02)
+}
+.navbar-default .navbar-toggle {
+    background-color: #fed136;
+    border-color: #fed136
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    background-color: #fed136
+}
+.navbar-default .nav li a {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    color:#ef4136;
+}
+.navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
+    color: #fed136;
+    outline: 0
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136
+}
+.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503
+}
+
+@media (min-width:768px) {
+    .navbar-default
+    {
+        background-color: rgba(255, 255, 255, 0.65);
+        padding: 5px 0;
+        -webkit-transition:padding .3s;
+        -moz-transition:padding .3s;
+        transition:padding .3s;
+        border:0
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition:all .3s;
+        -moz-transition:all .3s;
+        transition:all .3s
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #828282;
+        padding: 5px 0
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+}
+
+/*4.1. About QUE ES EL INTRO
+   --------------------*!*/
+
+.mz-module-about h4 {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.dark-bg .mz-module-about h3 {
+    color: #787878;
+}
+
+.mz-module-about p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #969696;
+}
+
+.ot-circle {
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    line-height: 98px;
+    color: #FFFFFF;
+    /* border: 3px solid #000; */
+    border-radius: 100px;
+    background-color: #23AD21;
+    margin: 0 2px 4px;
+    font-size: 24px;
+}
+
+
+/*--------------------
+4. Sections
+--------------------*/
+
+.section-title h2 {
+    font-size: 30px;
+    color: #5D5D5D;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.section-title h2:after {
+    left: 50%;
+    z-index: 1;
+    width: 40px;
+    height: 2px;
+    content: " ";
+    bottom: -5px;
+    margin-left: -20px;
+    text-align: center;
+    position: absolute;
+    background: #bf1e2e;
+}
+
+.dark-bg .section-title h2 {
+    color: #fff;
+}
+
+.section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 20px 100px 60px 100px;
 }
 
 p {
