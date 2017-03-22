@@ -1,11 +1,11 @@
 
 @font-face { 
-    font-family: 'montserrat'; 
-    src:  url('myfont.woff2') format('woff2'), 
-    url('myfont.woff') format('woff'); 
+    font-family: 'Montserrat'; 
 }
 
-
+@font-face { 
+font-family: 'Arima Madurai', cursive;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -29,7 +29,8 @@ h6 {
 --------------------*/
 
 header {
-    background-image: url(../images/bg6.png);
+    padding-top: 40px;
+    background-image: url(../images/bg7.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,51 +41,47 @@ header {
 
 header .intro-text {
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 230px;
-        padding-bottom: 400px;
+        padding-top: 80px;
+        padding-bottom: 40px;
     }
 }
 
 header .intro-text .intro-lead-in {
+    font-family: 'Arima Madurai', cursive;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.65);
     margin-bottom: 25px;
     padding: 4px 20px;
-    font-family: "Open Sans",sans-serif;
-    font-size: 19px;
-    color: #3E3E3E;
+    font-size: 48px;
+    color: #000000;
     font-weight: 300;
     line-height: 40px;
 }
 
 @media (min-width: 768px) {
     header .intro-text .intro-lead-in {
-        font-size: 29px;
-        line-height: 40px;
+        font-size: 39px;
         margin-bottom: 45px;
     }
 }
 
 header .intro-text .intro-heading {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 28px;
     margin-bottom: 25px;
-    letter-spacing: -3px;
-    word-spacing: 10px;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #3E3E3E;
 }
 
 @media (min-width: 768px) {
     header .intro-text .intro-heading {
         line-height: 95px;
-        font-size: 77px;
+        font-size: 25px;
         margin-bottom: 50px;
     }
 }
